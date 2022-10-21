@@ -1,0 +1,17 @@
+body {
+color: #05080C;
+background:#F6F6F6;
+font-size: 18px;
+margin: 0;
+font-family: sans-serif;
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+border-top: 5px solid #222222;
+padding: 0 100px;
+
+}
