@@ -16,29 +16,6 @@ p {
       .oswald { font-family: 'Oswald', sans-serif; }
         .lato { font-family: 'Lato', sans-serif; }
 
-
-
-.main-nav li, 
-.main-nav li a,
-.main-nav li a: :visited{
-  color: #fff;
-  text-decoration:none 
-}
-
-.main-nav li a:hover {
-
-  color: #f2ff00
-}
-.main-nav-item-featured{
-  text-transform: uppercase;
-  font-family: 'Oswald', 'sans-serif';
-
-}
-}
-p {
-  font-size: 20px;
-}
-
 /* Colors */
 /* Dark yellow: #f2ff00 */
 /* Lighter yellow: #ffd900 */
