@@ -1,4 +1,78 @@
-### Colors
-Green: #20c063 / RGBA(32,192,99,1)
-Gray: #e8e9ea  / RGBA (232,233,234,1)
-Dark Text: #3b4144 / RGBA (59,65,68,1)
+body {
+    color: #222;
+    font-size: 14px;
+    line-height: 1.4;
+    font-family: 'Source Sans Pro', sans-serif;
+
+
+}
+
+.trulia-nav {
+    background-color: #32b64c;
+    color: white;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+ }
+
+.trulia-nav ul {
+    list-style-type:none;
+    padding:0;
+  }
+  
+  .trulia-nav ul li {
+    display:inline-block;
+    margin:0;
+  }
+  
+  
+  
+  .trulia-nav svg {
+    height: 25px;
+    width: 78px;
+  }
+  
+  .trulia-nav-left,
+  .trulia-nav-right {
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .trulia-nav-item,
+  .trulia-nav-item:visited {
+    font-size: 14px;
+    padding: 0 12px;
+    display:block;
+    color:white;
+  }
+
+  .trulia-grid-item {
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    height: 260px;
+  }
+
+  .trulia-breadcrumb-area {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+    height: 100px
+  }
+  
+  .trulia-breadcrumb-text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 40px 0 0 0;
+    padding: 0px 0 0 30px;
+  }
+  
+  .trulia-breadcrumb-text h1, p {
+    margin: 0px;
+    padding: 0px 15px 15px 0px;
+    font-size: 14px;
+  }
