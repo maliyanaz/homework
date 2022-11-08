@@ -46,9 +46,7 @@ p {
 .main-nav-item-featured {
   text-transform: uppercase;
   font-family: 'Oswald', sans-serif;
-p {
-  font-size: 20px;
-}
+
 .cta {
   border-radius: 5px;
   color: #000;
