@@ -1,3 +1,7 @@
+html, body {
+  height: 100%;
+  font-family: 'Lato', sans-serif;
+}
 
 h1, h2, h3, h4, h5, h6, p {
   margin: 0;
@@ -8,9 +12,39 @@ p {
   line-height: 1.5;
   padding: 15px 0;
 }
-html, body {
-  height: 100%;
-  font-family: 'Lato', sans-serif;
+
+.cta {
+  border-radius: 5px;
+  color: #000;
+  display: block;
+  font-size: 24px;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+}
+
+.site_header {
+  background-color: #000;
+  border-bottom: 5px solid #f2ff00;
+  padding: 10px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.site_header h1 {
+  font-size: 32px;
+  text-transform: capitalize;
+  font-family: 'Merriweather', serif;
+}
+
+.site_header h1,
+.site_header h1 a,
+.site_header h1 a:visited {
+  color: #f2ff00;
+  text-decoration:none;
 }
 
 
@@ -23,7 +57,6 @@ html, body {
   font-family: 'Lato', sans-serif;
   margin:0;
 }
-
 
 .main-nav li {
 
@@ -45,56 +78,6 @@ html, body {
 .main-nav-item-featured {
   text-transform: uppercase;
   font-family: 'Oswald', sans-serif;
-
-.cta {
-  border-radius: 5px;
-  color: #000;
-  display: block;
-  font-size: 24px;
-  padding: 10px 30px;
-  text-align: center;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-family: 'Oswald', sans-serif;
-}
-.main-cta {
-  background-color: #f2ff00;
-  border-bottom: 2px solid #ffd900;
-}
-
-.site_header {
-  background-color: #000;
-  border-bottom: 5px solid #f2ff00;
-  padding: 10px 30px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.site_header h1 {
-  font-size: 32px;
-
-  text-transform: capitalize;
-  font-family: 'Merriweather', serif;
-}
-
-.site_header h1,
-.site_header h1 a,
-.site_header h1 a:visited {
-  color: #f2ff00;
-  text-decoration:none;
-}
-
-
-
-.inset-div {
-  background-color: rgba(255,255,255,0.9);
-  margin: 25px 25px 25px 0;
-  padding: 25px;
-  width: 380px;
-  height: 230px;
-  padding: 4%;
-  box-shadow: 0 0 5px rgba(0,0,0,.75);
 }
 
 .secondary-text {
@@ -105,10 +88,6 @@ html, body {
   font-family: 'Lato', sans-serif;
 }
 
-.underline {
-  border-bottom: 3px solid #f2ff00;
-} 
-
 .secondary-text p {
   font-size: 28px;
   margin: 0;
@@ -118,6 +97,9 @@ html, body {
   text-decoration: line-through;
 }
 
+.underline {
+  border-bottom: 3px solid #f2ff00;
+}
 
 
 .hero-area {
@@ -132,6 +114,16 @@ html, body {
 
 .hero-area h2 {
   font-weight: bold;
+}
+
+.inset-div {
+  background-color: rgba(255,255,255,0.9);
+  margin: 25px 25px 25px 0;
+  padding: 25px;
+  width: 380px;
+  height: 230px;
+  padding: 4%;
+  box-shadow: 0 0 5px rgba(0,0,0,.75);
 }
 
 .main-cta {
@@ -155,20 +147,24 @@ html, body {
 }
 
 
+.three-wide {
+  display: flex;
+  justify-content: center;
+}
+
 .third-container {
   border-right: 1px solid lightgray;
   margin: 10px 0;
   padding: 2%;
-}
-.three-wide {
-  display: flex;
-  justify-content: center;
 }
 
 
 .third-container:last-child {
   border-right: none;
 }
+
+
+
 
 .site-footer {
   background-color: #000;
