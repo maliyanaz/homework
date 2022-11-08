@@ -8,11 +8,10 @@ p {
   line-height: 1.5;
   padding: 15px 0;
 }
-
-.merriweather { font-family: 'Merriweather', serif; }
-.oswald { font-family: 'Oswald', sans-serif; }
-.lato { font-family: 'Lato', sans-serif; }
-
+html, body {
+  height: 100%;
+  font-family: 'Lato', sans-serif;
+}
 
 
 .main-nav ul {
@@ -58,6 +57,10 @@ p {
   text-transform: uppercase;
   font-family: 'Oswald', sans-serif;
 }
+.main-cta {
+  background-color: #f2ff00;
+  border-bottom: 2px solid #ffd900;
+}
 
 .site_header {
   background-color: #000;
@@ -102,6 +105,10 @@ p {
   font-family: 'Lato', sans-serif;
 }
 
+.underline {
+  border-bottom: 3px solid #f2ff00;
+} 
+
 .secondary-text p {
   font-size: 28px;
   margin: 0;
@@ -111,9 +118,6 @@ p {
   text-decoration: line-through;
 }
 
-.underline {
-  border-bottom: 3px solid #f2ff00;
-}
 
 
 .hero-area {
