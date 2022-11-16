@@ -166,7 +166,7 @@ hr {
   .trulia-house-image {
     background-size: cover;
     background-position: center center;
-    width: 100%;
+    width: 80%;
     height: 160px;
     position: relative;
     border-top-right-radius: 5px;
